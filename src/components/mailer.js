@@ -1,6 +1,5 @@
 
 import emailjs from "@emailjs/browser"
-import React, {useRef} from "react"
 
 const Mailer = () =>{
     function sendEmail(e){
