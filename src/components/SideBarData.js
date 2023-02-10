@@ -21,6 +21,12 @@ export const SideBarData =[
         path:'/putovanja',
         icon:<MdTravelExplore/>,
         cName:'nav-text'
+    },
+    {
+        title:'Rezervacije',
+        path:'/rezervacije',
+        icon:<MdTravelExplore/>,
+        cName:'nav-text'
     }
     
 ];

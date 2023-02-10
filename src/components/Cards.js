@@ -3,7 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 
 
-function Cards({data1, data2, title, type}) {
+function Cards({data1, data2, title, type, zakaziPutovanje}) {
   return (
     <div className='cards'>
       <h1>{title}</h1>
@@ -12,7 +12,8 @@ function Cards({data1, data2, title, type}) {
           <ul className='cards__items'>
            {
              data1.map(item => (<CardItem key={item.id} id={item.id} text={item.text}
-              name={item.name} src={item.src} checked={item.checked}  type={type} 
+              name={item.name} src={item.src} checked={item.checked}  type={type}
+              zakaziPutovanje={zakaziPutovanje}  
                />))
            }
           </ul>
@@ -22,6 +23,7 @@ function Cards({data1, data2, title, type}) {
               {
                 data2.map(item => (<CardItem key={item.id} id={item.id} text={item.text}
                    name={item.name} src={item.src} checked={item.checked}  type={type} 
+                   zakaziPutovanje={zakaziPutovanje}
                     />))
               }
            </ul> : <></>

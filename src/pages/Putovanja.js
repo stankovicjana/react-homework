@@ -3,15 +3,15 @@ import Cards from '../components/Cards'
 import InputControl from '../components/InputControl';
 import { Form } from 'react-bootstrap';
  
-function Putovanja({putovanja1, putovanja2}) {
+function Putovanja({putovanja1, putovanja2, zakaziPutovanje}) {
     return (
         <div>
             <Cards 
                 data1={putovanja1} 
                 data2 = {putovanja2} 
                 title='PUTOVANJA' 
-                type='putovanja' 
-               
+                type='putovanja'
+                zakaziPutovanje={zakaziPutovanje}
                />
         <div className='destinacije'>
         <h1>Destinacije</h1>
