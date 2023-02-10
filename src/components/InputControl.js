@@ -4,7 +4,7 @@ import axios from 'axios';
 import _ from 'lodash';
 import { Form } from 'react-bootstrap';
 import AutoComplete from './AutoComplete';
-import useOutsideClick from '../custom-hooks/useOutsideClick';
+import useOutsideClick from '../components/custom-hooks/useOutsideClick';
 
 //kreiramo reusable komponentu sa pretragom i predlozima koji su dostupni u komponenti
 

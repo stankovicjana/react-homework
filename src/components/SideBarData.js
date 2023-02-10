@@ -1,7 +1,7 @@
 import React from 'react';
 import * as AiIcons from 'react-icons/ai';
 import {MdTravelExplore} from 'react-icons/md';
-
+import {AiOutlineMessage} from 'react-icons/ai';
 export const SideBarData =[
 
     {
@@ -11,10 +11,16 @@ export const SideBarData =[
         cName:'nav-text'
     },
     {
-        title:'Destinacije',
+        title:'Kontakt',
         path:'/destinacije',
-        icon:<MdTravelExplore/>,
+        icon:<AiOutlineMessage/>,
         cName:'nav-text'
     },
+    {
+        title:'Putovanja',
+        path:'/putovanja',
+        icon:<MdTravelExplore/>,
+        cName:'nav-text'
+    }
     
 ];
