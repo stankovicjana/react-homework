@@ -12,7 +12,7 @@ function MainSection() {
   const clients = [
     {
         name: 'Marko Petrović',
-        text: 'Poštovani, Veliko je zadovoljstvo putovati u organizaciji Vaše turističke agencije. Suprugovo i moje putovanje u Prag 19.6.2019. bilo je po svim standardima zadovoljavajuće. Ono što posebno želim da pohvalim jesu fakultativni izleti. No, obraćam vam se ovim putem, kako bih vam skrenula pažnju na poseban kvalitet putovanja kome je doprineo gospodin Nikoli Ćurćuz. ',
+        text: 'Poštovani, Veliko je zadovoljstvo putovati u organizaciji Vaše turističke agencije. Suprugino i moje putovanje u Prag 19.6.2019. bilo je po svim standardima zadovoljavajuće. Ono što posebno želim da pohvalim jesu fakultativni izleti. No, obraćam vam se ovim putem, kako bih vam skrenuo pažnju na poseban kvalitet putovanja kome je doprineo gospodin Nikoli Ćurćuz. ',
         src: Image1
     },
     {

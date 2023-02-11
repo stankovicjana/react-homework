@@ -35,6 +35,7 @@ const Mailer = () =>{
             style={{marginTop:'30px'}}/>
             
             </form>
+           
         </div>
     );
 };
